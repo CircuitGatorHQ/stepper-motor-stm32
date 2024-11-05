@@ -1,6 +1,6 @@
 # Stepper Motor ULN2003APG control with STM32 Microcontroller 
 Below is an easy and short code to control a ULN2003APG Stepper Motor with an STM32 microcontroller using the Half Drive method.
-The full tutorial video is available on YouTube: 
+The full tutorial video is available on YouTube: https://www.youtube.com/watch?v=bE-lD6TE_EM
 
     /* USER CODE BEGIN 0 */
     //Setting up the Microcontroller pins (STM32 L432KC pins A1,A2,A3, and A4)
@@ -58,8 +58,8 @@ The full tutorial video is available on YouTube:
     HAL_TIM_Base_Start(&htim1);  // Start Timer 1
     /* USER CODE END 2 */
 
+
     //MAIN WHILE LOOP - Controlling the motor how we want
-    
     /* USER CODE BEGIN 3 */
     //It takes the motor 4096 steps to do 1 full revolution
     //The 1000 is the delay in between the steps to control the speed
